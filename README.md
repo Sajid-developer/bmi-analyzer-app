@@ -1,2 +1,2 @@
-# bmi-analyzer-app
+# BMI analyzer-app
 A BMI analyzer application using JavaScript. 👨🏼‍⚕️
