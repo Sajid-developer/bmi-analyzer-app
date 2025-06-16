@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BMI Health Analyzer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>BMI Health Analyzer</h1>
+    <div class="card">
+      <label for="height">Height (cm)</label>
+      <input type="number" id="height" placeholder="Enter height in cm" />
+
+      <label for="weight">Weight (kg)</label>
+      <input type="number" id="weight" placeholder="Enter weight in kg" />
+
+      <button onclick="calculateBMI()">Analyze</button>
+
+      <div class="result" id="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
