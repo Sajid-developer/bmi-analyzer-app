@@ -1,3 +1,5 @@
+console.log("App is running successfully...");
+
 function calculateBMI() {
     const height = parseFloat(document.getElementById("height").value);
     const weight = parseFloat(document.getElementById("weight").value);
@@ -11,6 +13,7 @@ function calculateBMI() {
 
     const bmi = weight / ((height / 100) ** 2);
     let category = "";
+
 
     if (bmi < 18.5) {
         category = "Underweight";
