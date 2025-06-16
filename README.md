@@ -3,6 +3,6 @@ A BMI analyzer application using JavaScript. 👨🏼‍⚕️
 
 ---
 
-## 📷 Screenshots
+## 📷 Screenshot
 
 ![Screenshot](images/screenshot.png)
